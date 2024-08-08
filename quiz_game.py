@@ -39,7 +39,7 @@ def display_final_results(score, total_questions):
     if score == total_questions:
         performance_message = "Excellent!" 
     else:
-        performance_message = "Good job!"
+        performance_message = "Good effort!"
     print(performance_message)
 
 def play_again():
@@ -61,6 +61,6 @@ def start_game():
     if play_again():
         start_game()
     else:
-        print("Thank you for playing! Goodbye.")
+        print("Thank you for playing.")
 
 start_game()
